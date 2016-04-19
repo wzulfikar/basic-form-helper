@@ -17,7 +17,7 @@
     this.set = function(values) {
       var keys = Object.keys(values);
       for (var i = 0; i < keys.length; i++) {
-        $form.find('[name="' + keys[i] + '"]').val(values[keys[i]]);
+        $form.find('[name="' + keys[i] + '"]').val(values[keys[i]]).trigger('change');
       }
 
       return $form;
