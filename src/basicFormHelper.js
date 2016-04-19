@@ -1,4 +1,7 @@
 (function($) {
+
+  "use strict";
+
   $.fn.formHelper = function($form) {
 
     this.reset = function(resetHidden) {
@@ -18,10 +21,6 @@
       }
 
       return $form;
-    };
-  
-    this.json = function(){
-        
     };
     
     return $form;
