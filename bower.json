@@ -1,0 +1,25 @@
+{
+  "name": "basic-form-helper",
+  "authors": [
+    "wzulfikar <wzulfikar@ymail.com>"
+  ],
+  "description": "Basic helper function for form element using jQuery",
+  "main": "src/basicFormHelper.js",
+  "moduleType": [],
+  "keywords": [
+    "form",
+    "helper"
+  ],
+  "license": "MIT",
+  "homepage": "",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "jquery": ">=1.7.1"
+  }
+}
